@@ -24,7 +24,7 @@ This system aims to enhance the anime discovery experience for fans and newcomer
 ---
 
 ## 📁 Project Directory Structure
-
+'''
 anime-recommender/
 ├── app.py # Flask backend logic
 ├── data/
@@ -48,7 +48,7 @@ anime-recommender/
 ├── Procfile # Deployment config (e.g., Heroku)
 ├── runtime.txt # Python version for deployment
 └── README.md # 📄 Project documentation (this file)
-
+'''
 
 > ℹ️ **The full project description and motivation can be found in** `templates/description.html`. It includes:
 > - Purpose & scope
