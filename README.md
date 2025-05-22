@@ -24,31 +24,28 @@ This system aims to enhance the anime discovery experience for fans and newcomer
 ---
 
 ## 📁 Project Directory Structure
-'''
+
+```
 anime-recommender/
-├── app.py # Flask backend logic
-├── data/
-│ ├── anime.csv
-│ └── rating.csv # Raw datasets
-├── models/
-│ ├── tfidf_model.pkl
-│ ├── similarity_matrix.pkl
-│ └── popularity_model.pkl # Precomputed model files
-├── static/
-│ └── css/
-│ └── style.css # Custom CSS styling
+├── app.py
 ├── templates/
-│ ├── index.html # Home input page
+│ ├── index.html
 │ ├── recommendations.html
-│ ├── popular.html
-│ ├── team.html
-│ ├── description.html # 🔍 Detailed project overview (HTML)
-│ └── error.html
-├── requirements.txt # All required Python packages
-├── Procfile # Deployment config (e.g., Heroku)
-├── runtime.txt # Python version for deployment
-└── README.md # 📄 Project documentation (this file)
-'''
+│ └── popular.html
+├── static/
+│ ├── css/
+│ │ └── style.css
+│ └── js/
+│ └── script.js
+├── data/
+│ └── anime_data.csv
+├── models/
+│ └── collaborative_model.pkl
+├── requirements.txt
+├── Procfile
+├── runtime.txt
+└── README.md
+```
 
 > ℹ️ **The full project description and motivation can be found in** `templates/description.html`. It includes:
 > - Purpose & scope
