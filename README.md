@@ -62,7 +62,19 @@ anime-recommender/
 
 - Python 3.7 or above  
 - pip (Python package installer)  
-- Git  
+- Git
+- Flask
+- pandas
+- scikit-learn
+- Flask==2.0.1
+- pandas==1.3.3
+- numpy==1.21.2
+- scikit-learn==0.24.2
+- requests==2.26.0
+- python-dotenv==0.19.0
+- Jinja2==3.0.1
+- scipy==1.7.1
+- gunicorn==20.1.0
 
 ### Steps
 
