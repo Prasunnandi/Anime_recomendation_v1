@@ -1,0 +1,10 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+large filter=lfs diff=lfs merge=lfs -text
+model filter=lfs diff=lfs merge=lfs -text
+files filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+\# filter=lfs diff=lfs merge=lfs -text
+If filter=lfs diff=lfs merge=lfs -text
+you filter=lfs diff=lfs merge=lfs -text
+have filter=lfs diff=lfs merge=lfs -text
