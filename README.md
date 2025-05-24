@@ -1,6 +1,8 @@
 
 # 🎌 Anime Recommendation System
 
+## Anime_recomendation_v1
+
 
 The **Anime Recommender System** is a web application that suggests anime titles based on user input and preferences. It uses a hybrid filtering approach combining **content-based filtering**, **collaborative filtering**, and **popularity-based ranking** to provide personalized and accurate anime suggestions.
 
@@ -76,22 +78,31 @@ anime-recommender/
 - scipy==1.7.1
 - gunicorn==20.1.0
 
-### Steps
+## 🚀 Installation Guide
 
-1. Clone the repository:
-   ```bash
-   [git clone https://github.com/Prasunnandi/Anime_recomendation_2025.git]
-   cd Anime_recomendation_2025
+### Prerequisites
+- Python 3.6+
+- Git
+- pip
 
-2. Create and activate a virtual environment (optional but recommended):
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate   # On Windows: venv\Scripts\activate
+### Setup Instructions
 
-3. Install dependencies:
+1. **Clone the repository**:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/Prasunnandi/Anime_recomendation_v1.git
+   cd Anime_recomendation_v1
+   
+**Create and activate virtual environment**:
 
-4. Run the Flask app:
-   ```bash
-   flask run
+ **For Linux/MacOS:**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+
+**For Windows:**
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+
